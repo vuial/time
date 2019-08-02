@@ -1,0 +1,18 @@
+ <view class="container{{bgsrc?' zoomout':''}}{{isiPhoneX?' ct-iphonex':''}}">
+    <view class="header"> 
+ <view class="nnian">{{today}}</view>
+    <view bindtap="viewHistory" class="main">
+        <view class="cell"></view>
+        <view class="months">
+            <view class="remaining">
+                <view class="remaining-before" style="top: {{100-remaining}}%;"></view>
+                <view class="remaining-after" style="top: {{100-remaining}}%;"></view> 
+            </view>
+        </view>
+       <view>点击屏幕切换年月日</view> 
+         <view class="past">
+         <view> <text>剩余：{{remaining}}%</text></view>
+        </view>
+        </view> 
+    </view>
+</view>
