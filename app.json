@@ -1,0 +1,11 @@
+{
+  "pages": [
+        "pages/1/1"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "时间进度",
+    "navigationBarTextStyle": "black"
+  }
+}
